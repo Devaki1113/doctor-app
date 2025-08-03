@@ -1,4 +1,5 @@
 import {Component} from "react"
+import {Link} from "react-router-dom"
 
 class DoctorDetails extends Component{
     state={datafetched:[]}
@@ -38,8 +39,8 @@ class DoctorDetails extends Component{
                 <p>{data[0].specialization}</p>
                 <p>Location : Hyderabad</p>
                 <p>10 Years Of Experience</p>
-                <a href="/loginform">
-                <button type="button" style={{cursor:"pointer"}}>Book Appointment</button></a>
+                <Link to="/loginform">
+                <button type="button" style={{cursor:"pointer"}}>Book Appointment</button></Link>
           </div> 
         </div></>):<h1>Loading...</h1>
            
