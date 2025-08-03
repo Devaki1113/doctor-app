@@ -1,0 +1,30 @@
+[
+     {
+    "id":1,
+    "name":"Dr.sanjana",
+    "specialization":"cardiologist",
+    "image":"https://randomuser.me/api/portraits/women/93.jpg",
+    "availability":"Available-today",
+    "Years":5,
+    "Consultation":600
+},
+ {
+    "id":2,
+    "name":"Dr.lokesh",
+    "specialization":"Dermatologist",
+    "image":"https://randomuser.me/api/portraits/men/47.jpg",
+    "availability":"Fully booked",
+     "Years":10,
+    "Consultation":700
+},
+ {
+    "id":3,
+   "name":"Dr.Meera",
+    "specialization":"Dentist",
+    "image":"https://randomuser.me/api/portraits/women/32.jpg",
+    "availability":"On leave",
+     "Years":7,
+    "Consultation":500
+}
+
+]
