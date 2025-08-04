@@ -5,10 +5,9 @@ import DoctorDetails from "./Components/DoctorDetails";
 import Login from "./Components/Login";
 import './App.css';
 const App=() =>(
-    <BrowserRouter>
+    <BrowserRouter basename="doctor-app">
     <Switch>
-     
-      <Route exact path="/" component={DoctorsCard}/>
+     <Route exact path="/" component={DoctorsCard}/>
       <Route exact path="/doctorDetails/:id" component={DoctorDetails}/>
       <Route exact path="/loginform" component={Login}/>
     </Switch>
