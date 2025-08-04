@@ -21,7 +21,7 @@ class Login extends Component{
 
     }
     render(){
-        const{email,patientName,showUser}=this.state
+        const{email,patientName,showUser,dateofappointment}=this.state
         return(
     <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
       {showUser ?(<h1>Details Are Submitted</h1>):
@@ -37,7 +37,7 @@ class Login extends Component{
             </div>
             <div >
             <label htmlFor="dateOfAppointment" style={{marginRight:10}}>DATE OF APPOINTMENT :</label>
-            <input type="date" id="dateOfAppointment" placeholder="Email" value={email} onChange={this.getDate}/> 
+            <input type="date" id="dateOfAppointment" placeholder="Email" value={dateofappointment} onChange={this.getDate}/> 
             </div>
            <button type="submit" style={{marginTop:19,cursor:"pointer"}} >Submit</button>
         </form>)} 
